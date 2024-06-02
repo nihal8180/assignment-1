@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="award">AWARD WINNING</h2>
+            <h1 class="title">DIGITAL MARKETING AGENCY</h1>
+            <p class="description">Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla acc at purus. Morbi sed lacus nec risus finibus feugiat at fermentum.</p>
+            <button class="contact-button" onclick="openForm()">CONTACT US</button>
+        </div>
+        <div class="image">
+            <img src="Screenshot 2024-06-01 160234.png" alt="Woman making crafts">
+        </div>
+    </div>
+    <div id="contactForm" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h2>Talk to us</h2>
+            <form action="https://getform.io/f/pbygzezb"method="POST">
+                <label for="email">Work email*</label>
+                <input type="email" id="email" name="email" required>
+                
+                <div class="name-fields">
+                    <div>
+                        <label for="firstName">First name*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div>
+                        <label for="lastName">Last name*</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions, and provide consent to send me communication.</label>
+                </div>
+                
+                <button type="submit" class="submit-button">Contact Us</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="contain">
+        <div class="header">
+            <div class="header-left">
+                <h2 class="section-title">WHAT WE DO</h2>
+                <h1 class="main-title">SERVICES PROVIDE FOR YOU</h1>
+            </div>
+            <div class="header-right">
+                <p class="section-description">
+                    Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat at fermentum.
+                </p>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="Screenshot 2024-06-02 161532.png" alt="Image 1">
+                    <div class="hover-text">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <a href="https://fylehq.com" target="_blank" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="Screenshot 2024-06-02 161544.png" alt="Image 2">
+                    <div class="hover-text">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <a href="https://fylehq.com" target="_blank" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="Screenshot 2024-06-02 161559.png" alt="Image 3">
+                    <div class="hover-text">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <a href="https://fylehq.com" target="_blank" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="Screenshot 2024-06-02 161532.png" alt="Image 4">
+                    <div class="hover-text">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <a href="https://fylehq.com" target="_blank" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="Screenshot 2024-06-02 161544.png" alt="Image 5">
+                    <div class="hover-text">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                        <a href="https://fylehq.com" target="_blank" class="read-more">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+
+
+    <div class="contai">
+        <div class="header">
+            <div class="header-left">
+                <p class="section-title">OUR PROJECT</p>
+                <h1 class="main-title">WHY WE ARE BEST</h1>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-image">
+                <img id="projectImage" src="Screenshot 2024-06-02 161532.png" alt="Project Image">
+            </div>
+            <div class="project-details">
+                <div class="project-item active" data-image="Screenshot 2024-06-02 161532.png">
+                    <h3>Genderless Kei – Japan's Hot</h3>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it's offering lots of...</p>
+                </div>
+                <div class="project-item" data-image="Screenshot 2024-06-02 161544.png">
+                    <h3>Better Strategy & Quality</h3>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it's offering lots of...</p>
+                </div>
+                <div class="project-item" data-image="Screenshot 2024-06-02 161559.png">
+                    <h3>Genderless Kei – Japan's Hot</h3>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it's offering lots of...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="why-choose-us">
+        <h2>WHY CHOOSE US</h2>
+        <h3>WHY WE ARE BEST</h3>
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <img src="1.svg" alt="Vision & Target" class="icon">
+                    <h4 class="l">Clarified Vision & Target</h4>
+                    <p class="m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="2.svg" alt="High Performance" class="icon">
+                    <h4 class="l">High Performance</h4>
+                    <p class="m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="3.svg" alt="Maintain Security" class="icon">
+                    <h4 class="l">Maintain Security</h4>
+                    <p class="m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="4.svg" alt="Strategy & Quality" class="icon">
+                    <h4 class="l">Better Strategy & Quality</h4>
+                    <p class="m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <div class="company-growth">
+        <h2>OUR COMPANY GROWTH</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <span class="icon">❤️</span>
+                    <h3 class="j">199+</h3>
+                    <p class="k">Satisfied Customers</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <span class="icon">⏰</span>
+                    <h3 class="j">1591+</h3>
+                    <p class="k">Days Of Operation</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <span class="icon">✔️</span>
+                    <h3 class="j">283+</h3>
+                    <p class="k">Complete Projects</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <span class="icon">🏆</span>
+                    <h3 class="j">75+</h3>
+                    <p class="k">Win Awards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="client-feedback">
+        <h2>CLIENT'S FEEDBACK</h2>
+        <h3>PEOPLE SAY'S ABOUT US!</h3>
+        <div class="testimonial">
+            <p><span class="quote">"</span>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.<span class="quote">"</span></p>
+            <p class="author"><strong >JANNAT TUMPA</strong> - COO, AMERIMAR ENTERPRISES, INC.</p>
+        </div>
+    </div>
+    <div class="footer-image">
+        <img src="Group 500.png" alt="Footer Image">
+    </div>
+
+    <script src="script.js"></script
+</body>
+</html>
